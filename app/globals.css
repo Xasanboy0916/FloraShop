@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Flora & Bloom pastel palette */
+  --color-cream: #fffdf9;
+  --color-ink: #4a3f45;
+  --color-ink-soft: #8a7c83;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-rose-50: #fdf5f8;
+  --color-rose-100: #fae9f0;
+  --color-rose-200: #f5d3e0;
+  --color-rose-300: #edb2c8;
+  --color-rose-400: #e18aa9;
+  --color-rose-500: #d0688c;
+  --color-rose-600: #b44e72;
+  --color-rose-700: #933e5c;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --color-sage-50: #f3f7f2;
+  --color-sage-100: #e5efe2;
+  --color-sage-200: #cde2c8;
+  --color-sage-300: #aacfa2;
+  --color-sage-400: #86b67c;
+  --color-sage-500: #679a5f;
+  --color-sage-600: #4f7c4a;
+  --color-sage-700: #40633d;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-fade-in: fade-in 0.7s ease-out both;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-rose-200 text-rose-700;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-rose-500 px-7 py-3 font-bold text-white shadow-lg shadow-rose-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-rose-600 hover:shadow-xl hover:shadow-rose-500/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-rose-200 bg-white/70 px-7 py-3 font-bold text-rose-600 transition-all duration-300 hover:-translate-y-0.5 hover:border-rose-300 hover:bg-rose-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-400 active:scale-[0.98];
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-sm font-bold text-ink;
+  }
+
+  .field-input {
+    @apply w-full rounded-2xl border border-rose-100 bg-white px-4 py-3 text-ink shadow-sm transition placeholder:text-ink-soft/60 focus:border-rose-300 focus:ring-4 focus:ring-rose-100 focus:outline-none;
+  }
+
+  .field-error {
+    @apply border-rose-400 focus:border-rose-400 focus:ring-rose-100;
+  }
 }

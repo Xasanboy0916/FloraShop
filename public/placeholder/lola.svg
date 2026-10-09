@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+    <rect width="600" height="600" fill="#fdeff5"/>
+    <circle cx="300" cy="275" r="215" fill="#f9dfe9"/>
+    <circle cx="520" cy="120" r="10" fill="#f2c3d6" opacity="0.7"/>
+    <circle cx="80" cy="180" r="7" fill="#f2c3d6" opacity="0.7"/>
+    <circle cx="470" cy="500" r="9" fill="#edd6e0" opacity="0.8"/>
+    <ellipse cx="300" cy="556" rx="150" ry="15" fill="#f0d3df" opacity="0.75"/>
+    <path d="M 300 552 C 294 470 252 380 240 292" fill="none" stroke="#7fa877" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 300 552 C 306 440 366 320 372 240" fill="none" stroke="#7fa877" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 300 552 C 304 500 322 448 328 392" fill="none" stroke="#8ab083" stroke-width="6" stroke-linecap="round"/>
+    <g transform="rotate(-48 255 470)">
+    <ellipse cx="255" cy="424.2" rx="31.7" ry="48.4" fill="#8fb98a"/>
+    <line x1="255" y1="474.4" x2="255" y2="382" stroke="#79a873" stroke-width="4.8" stroke-linecap="round"/>
+  </g>
+    <g transform="rotate(46 352 486)">
+    <ellipse cx="352" cy="443.4" rx="29.5" ry="45.1" fill="#8fb98a"/>
+    <line x1="352" y1="490.1" x2="352" y2="404" stroke="#79a873" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+    <g>
+    <ellipse cx="238" cy="209.2" rx="42.2" ry="53.8" fill="#f6b3ca" stroke="#eb98b8" stroke-width="2.1" transform="rotate(0 238 262)"/><ellipse cx="238" cy="209.2" rx="42.2" ry="53.8" fill="#f6b3ca" stroke="#eb98b8" stroke-width="2.1" transform="rotate(72 238 262)"/><ellipse cx="238" cy="209.2" rx="42.2" ry="53.8" fill="#f6b3ca" stroke="#eb98b8" stroke-width="2.1" transform="rotate(144 238 262)"/><ellipse cx="238" cy="209.2" rx="42.2" ry="53.8" fill="#f6b3ca" stroke="#eb98b8" stroke-width="2.1" transform="rotate(216 238 262)"/><ellipse cx="238" cy="209.2" rx="42.2" ry="53.8" fill="#f6b3ca" stroke="#eb98b8" stroke-width="2.1" transform="rotate(288 238 262)"/>
+    <line x1="238" y1="235.1" x2="238" y2="183.3" stroke="#e27fa4" stroke-width="4.8" stroke-linecap="round" transform="rotate(0 238 262)"/><line x1="238" y1="235.1" x2="238" y2="183.3" stroke="#e27fa4" stroke-width="4.8" stroke-linecap="round" transform="rotate(72 238 262)"/><line x1="238" y1="235.1" x2="238" y2="183.3" stroke="#e27fa4" stroke-width="4.8" stroke-linecap="round" transform="rotate(144 238 262)"/><line x1="238" y1="235.1" x2="238" y2="183.3" stroke="#e27fa4" stroke-width="4.8" stroke-linecap="round" transform="rotate(216 238 262)"/><line x1="238" y1="235.1" x2="238" y2="183.3" stroke="#e27fa4" stroke-width="4.8" stroke-linecap="round" transform="rotate(288 238 262)"/>
+    <circle cx="238" cy="262" r="19.2" fill="#f8d468"/>
+    <circle cx="250.2" cy="264.6" r="3.4" fill="#e39c3f"/><circle cx="243.6" cy="273.2" r="3.4" fill="#e39c3f"/><circle cx="232.8" cy="273.3" r="3.4" fill="#e39c3f"/><circle cx="225.9" cy="265" r="3.4" fill="#e39c3f"/><circle cx="228.1" cy="254.4" r="3.4" fill="#e39c3f"/><circle cx="237.8" cy="249.5" r="3.4" fill="#e39c3f"/><circle cx="247.6" cy="254.1" r="3.4" fill="#e39c3f"/>
+  </g>
+    <g>
+    <ellipse cx="374" cy="166.9" rx="36.1" ry="45.9" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.8" transform="rotate(28 374 212)"/><ellipse cx="374" cy="166.9" rx="36.1" ry="45.9" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.8" transform="rotate(100 374 212)"/><ellipse cx="374" cy="166.9" rx="36.1" ry="45.9" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.8" transform="rotate(172 374 212)"/><ellipse cx="374" cy="166.9" rx="36.1" ry="45.9" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.8" transform="rotate(244 374 212)"/><ellipse cx="374" cy="166.9" rx="36.1" ry="45.9" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.8" transform="rotate(316 374 212)"/>
+    <line x1="374" y1="189" x2="374" y2="144.8" stroke="#e27fa4" stroke-width="4.1" stroke-linecap="round" transform="rotate(28 374 212)"/><line x1="374" y1="189" x2="374" y2="144.8" stroke="#e27fa4" stroke-width="4.1" stroke-linecap="round" transform="rotate(100 374 212)"/><line x1="374" y1="189" x2="374" y2="144.8" stroke="#e27fa4" stroke-width="4.1" stroke-linecap="round" transform="rotate(172 374 212)"/><line x1="374" y1="189" x2="374" y2="144.8" stroke="#e27fa4" stroke-width="4.1" stroke-linecap="round" transform="rotate(244 374 212)"/><line x1="374" y1="189" x2="374" y2="144.8" stroke="#e27fa4" stroke-width="4.1" stroke-linecap="round" transform="rotate(316 374 212)"/>
+    <circle cx="374" cy="212" r="16.4" fill="#f8d468"/>
+    <circle cx="384.4" cy="214.2" r="2.9" fill="#e39c3f"/><circle cx="378.8" cy="221.5" r="2.9" fill="#e39c3f"/><circle cx="369.5" cy="221.7" r="2.9" fill="#e39c3f"/><circle cx="363.6" cy="214.5" r="2.9" fill="#e39c3f"/><circle cx="365.6" cy="205.5" r="2.9" fill="#e39c3f"/><circle cx="373.8" cy="201.3" r="2.9" fill="#e39c3f"/><circle cx="382.2" cy="205.2" r="2.9" fill="#e39c3f"/>
+  </g>
+    <g>
+    <ellipse cx="330" cy="328.4" rx="31.7" ry="40.3" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.6" transform="rotate(12 330 368)"/><ellipse cx="330" cy="328.4" rx="31.7" ry="40.3" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.6" transform="rotate(84 330 368)"/><ellipse cx="330" cy="328.4" rx="31.7" ry="40.3" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.6" transform="rotate(156 330 368)"/><ellipse cx="330" cy="328.4" rx="31.7" ry="40.3" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.6" transform="rotate(228 330 368)"/><ellipse cx="330" cy="328.4" rx="31.7" ry="40.3" fill="#f6b3ca" stroke="#eb98b8" stroke-width="1.6" transform="rotate(300 330 368)"/>
+    <line x1="330" y1="347.8" x2="330" y2="309" stroke="#e27fa4" stroke-width="3.6" stroke-linecap="round" transform="rotate(12 330 368)"/><line x1="330" y1="347.8" x2="330" y2="309" stroke="#e27fa4" stroke-width="3.6" stroke-linecap="round" transform="rotate(84 330 368)"/><line x1="330" y1="347.8" x2="330" y2="309" stroke="#e27fa4" stroke-width="3.6" stroke-linecap="round" transform="rotate(156 330 368)"/><line x1="330" y1="347.8" x2="330" y2="309" stroke="#e27fa4" stroke-width="3.6" stroke-linecap="round" transform="rotate(228 330 368)"/><line x1="330" y1="347.8" x2="330" y2="309" stroke="#e27fa4" stroke-width="3.6" stroke-linecap="round" transform="rotate(300 330 368)"/>
+    <circle cx="330" cy="368" r="14.4" fill="#f8d468"/>
+    <circle cx="339.2" cy="369.9" r="2.5" fill="#e39c3f"/><circle cx="334.2" cy="376.4" r="2.5" fill="#e39c3f"/><circle cx="326.1" cy="376.5" r="2.5" fill="#e39c3f"/><circle cx="320.9" cy="370.2" r="2.5" fill="#e39c3f"/><circle cx="322.6" cy="362.3" r="2.5" fill="#e39c3f"/><circle cx="329.9" cy="358.6" r="2.5" fill="#e39c3f"/><circle cx="337.2" cy="362.1" r="2.5" fill="#e39c3f"/>
+  </g>
+  </svg>
