@@ -1,6 +1,25 @@
 [
-  { "name": "Lola", "desc": "Nozik va bahoriy", "price": "", "img": "/placeholder/lola.jpg" },
-  { "name": "Atirgul", "desc": "Klassik va nafis", "price": "", "img": "/placeholder/atirgul.jpg" },
-  { "name": "Moychechak", "desc": "Oppoq va mayin", "price": "", "img": "/placeholder/moychechak.jpg" },
-  { "name": "Binafsha", "desc": "Xushbo‘y va yorqin", "img": "/placeholder/binafsha.jpg" }
+	{
+		"name": "Pion",
+		"desc": "Nozik va bahoriy",
+		"price": "",
+		"img": "/placeholder/lola.jpg"
+	},
+	{
+		"name": "Atirgul",
+		"desc": "Klassik va nafis",
+		"price": "",
+		"img": "/placeholder/atirgul.jpg"
+	},
+	{
+		"name": "Moychechak",
+		"desc": "Oppoq va mayin",
+		"price": "",
+		"img": "/placeholder/moychechak.jpg"
+	},
+	{
+		"name": "Binafsha",
+		"desc": "Xushbo‘y va yorqin",
+		"img": "/placeholder/binafsha.jpg"
+	}
 ]
